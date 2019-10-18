@@ -3,7 +3,8 @@ spring:
         name: client
 ---
 server: 
-    port: 9001
+    port: 80
+    #port: 900
     ssl:
         enabled: true
         client-auth: need

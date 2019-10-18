@@ -2,8 +2,9 @@ spring:
     application:
         name: server
 ---
-server: 
-    port: 9002
+server:
+    port: 80
+    #port: 9002
     ssl:
         enabled: true
         client-auth: need
