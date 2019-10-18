@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: server
+---
+server: 
+    port: 9002
+    ssl:
+        enabled: true
+        client-auth: need
+        key-store: classpath:server.jks
+        key-store-password: arep2019
+        key-alias: server
+        key-store-type: JKS
+        key-store-provider: SUN
+        trust-store: classpath:server.jks
+        trust-store-password: arep2019
+        trust-store-type: JKS

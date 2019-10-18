@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: client
+---
+server: 
+    port: 9001
+    ssl:
+        enabled: true
+        client-auth: need
+        key-store: classpath:client.jks
+        key-store-password: arep2019
+        key-alias: client
+        key-store-type: JKS
+        key-store-provider: SUN
+        trust-store: classpath:client.jks
+        trust-store-password: arep2019
+        trust-store-type: JKS
+---
+endpoint:
+    serverData: https://localhost:9002/server/data
