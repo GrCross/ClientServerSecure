@@ -1,4 +1,4 @@
-package main.java.com.nt.ms.controller;
+package com.nt.ms.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

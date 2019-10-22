@@ -1,4 +1,4 @@
-package main.java.com.nt.ms;
+package com.nt.ms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
